@@ -1,0 +1,40 @@
+#review {
+  margin: 100px 0px 150px;
+}
+
+#review .card {
+  border: 0;
+  background: #4a4e69;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#review .card img {
+  margin: 10px auto;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+#review .card span {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  display: block;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+#review .card p {
+  color: #fff;
+  font-size: 1rem;
+  margin: 10px 0;
+  display: block;
+  font-weight: 400;
+}
+/*# sourceMappingURL=review.css.map */

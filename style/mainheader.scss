@@ -1,0 +1,120 @@
+// main header start
+#main-header {
+    background-image: url(../image/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 65vh;
+    position: relative;
+    // overlay
+    .overlay {
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    // navigation
+    .navigation {
+        .brand a {
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: #e85d04;
+            font-family: "Pacifico", cursive;
+        }
+        .fa-bars {
+            color: #e85d04;
+            font-size: 1.9rem;
+            cursor: pointer;
+        }
+    }
+    // navigation items
+    .navigation-items {
+        width: 400px;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        width: 0;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.9);
+        z-index: 1;
+        transition: all 0.4s ease;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+    }
+    .navbar-nav {
+        margin: 80px 0 0;
+    }
+
+    .fa-times {
+        font-size: 2.5rem;
+        cursor: pointer;
+        display: inline-block;
+    }
+    // nav link
+    .nav-link {
+        color: #e85d04;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        margin: 8px 0;
+    }
+
+    // header-home
+    .header-home {
+        // APPLY TRANSFORM STYLE
+        /* text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%); */
+
+        // APPLY D-FLEX STYLE
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .header-home-content {
+        h1 {
+            color: #fff;
+            text-transform: capitalize;
+            margin: 5px 0 20px;
+            font-size: 3.5rem;
+        }
+        #search-input,
+        #search-btn {
+            background-color: transparent;
+            margin: 25px 0;
+            color: #fff;
+        }
+        .fa-search {
+            color: #fff;
+            font-size: 22px;
+        }
+        #search-btn:hover {
+            background-color: #e85d04;
+        }
+        .fa-search {
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            transform: translate(-50%, -40%);
+            -webkit-transform: translate(-50%, -40%);
+            -moz-transform: translate(-50%, -40%);
+            -ms-transform: translate(-50%, -40%);
+            -o-transform: translate(-50%, -40%);
+        }
+    }
+}

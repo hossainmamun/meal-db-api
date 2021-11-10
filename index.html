@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testy Treat</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- slick carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <!-- heading section start -->
+    <section id="main-header">
+        <div class="overlay">
+            <div class="container-fluid">
+                <!-- navigation -->
+                <nav class="navigation">
+                    <div class="container">
+                        <div class="top-nav d-flex justify-content-between py-3">
+                            <div class="brand">
+                                <a href="index.html">Testy Treat</a>
+                            </div>
+                            <div class="hambergur">
+                                <i id="nav-open-btn" class="fas fa-bars"></i>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <!-- nav items -->
+                <div class="navigation-items shadow">
+                    <ul class="navbar-nav">
+                        <i id="nav-close-btn" class="nav-link fas fa-times"></i>
+                        <li class="nav-item"><a class="nav-link" href="#main-header">home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#popular-meal">meal</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#review">review</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#newsBlog">news & blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact-page">contact</a></li>
+                    </ul>
+                </div>
+                <!-- header home start -->
+                <div class="header-home">
+                    <div class="header-home-content">
+                        <h1>search your favorite meal</h1>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-10 pr-0">
+                                    <input id="search-input" type="search"
+                                        class="form-control rounded-0 border-white border-right-0 py-4"
+                                        placeholder="Search Your Meal">
+                                </div>
+                                <div class="col-2  pl-0">
+                                    <button id="search-btn" class="btn border-white rounded-0 form-control py-4"><i
+                                            class="fas fa-search"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="booking.html" id="book-btn" class="btn text-capitalize px-4">book now</a>
+                    </div>
+                </div>
+                <!-- header home end -->
+            </div>
+        </div>
+    </section>
+    <!-- heading section end -->
+
+    <!-- popular meal display section start -->
+    <section id="popular-meal">
+        <div class="header text-center">
+            <h2>our popular meal</h2>
+            <span>it will change you test experience</span>
+        </div>
+        <div class="container">
+            <div id="meal-display">
+
+            </div>
+        </div>
+    </section>
+    <!-- popular meal display section end -->
+
+    <!-- single meal detail start -->
+    <section id="single-meal">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+
+                    <div id="single-detail">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- single meal detail start -->
+
+    <!-- search meal list start -->
+    <section id="search-meal">
+        <div class="container">
+            <div id="search-meal-display">
+
+            </div>
+        </div>
+    </section>
+    <!-- search meal list end -->
+
+    <!-- news & blogs start -->
+    <section id="newsBlog">
+        <div class="container">
+            <div class="header">
+                <h2>news & blogs</h2>
+                <span>Lorem ipsum dolor sit amet consectetur.</span>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card border-0 shadow">
+                        <img src="image/banner.jpg" class="img-fluid" alt="img">
+                        <div class="card-body">
+                            <div class=" d-lg-flex justify-content-between">
+                                <div class="mr-3">
+                                    <i class="fa fa-calendar"></i>
+                                    <span>jan. 01. 2021</span>
+                                </div>
+                                <div>
+                                    <i class="fa fa-comment"></i>
+                                    <span>comments</span>
+                                </div>
+                            </div>
+                            <h3 class="mt-4">Lorem ipsum dolor sit amet.</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, laborum?</p>
+                            <a class="btn btn-blog" href="#">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow">
+                        <img src="image/banner.jpg" class="img-fluid" alt="img">
+                        <div class="card-body">
+                            <div class=" d-lg-flex justify-content-between">
+                                <div class="mr-3">
+                                    <i class="fa fa-calendar"></i>
+                                    <span>jan. 01. 2021</span>
+                                </div>
+                                <div>
+                                    <i class="fa fa-comment"></i>
+                                    <span>comments</span>
+                                </div>
+                            </div>
+                            <h3 class="mt-4">Lorem ipsum dolor sit amet.</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, laborum?</p>
+                            <a class="btn btn-blog" href="#">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow">
+                        <img src="image/banner.jpg" class="img-fluid" alt="img">
+                        <div class="card-body">
+                            <div class=" d-lg-flex justify-content-between">
+                                <div class="mr-3">
+                                    <i class="fa fa-calendar"></i>
+                                    <span>jan. 01. 2021</span>
+                                </div>
+                                <div>
+                                    <i class="fa fa-comment"></i>
+                                    <span>comments</span>
+                                </div>
+                            </div>
+                            <h3 class="mt-4">Lorem ipsum dolor sit amet.</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, laborum?</p>
+                            <a class="btn btn-blog" href="#">read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- news & blogs end -->
+
+    <!-- review start -->
+    <section id="review">
+        <div class="container">
+            <div class="header">
+                <h2>review</h2>
+                <span>Lorem ipsum dolor sit amet consectetur.</span>
+            </div>
+            <div class="row slider">
+                <div class="col-md-12">
+                    <div class="card p-4 text-center">
+                        <img src="image/testimonial/face1.jpg" class="img-fluid" alt="img">
+                        <span>justin adam</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, alias enim
+                            cumvoluptate adipisci repellat?</p>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="card p-4 text-center">
+                        <img src="image/testimonial/face2.jpg" class="img-fluid" alt="img">
+                        <span>taylor kuttu</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, alias enim
+                            cumvoluptate adipisci repellat?</p>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="card p-4 text-center">
+                        <img src="image/testimonial/face3.jpg" class="img-fluid" alt="img">
+                        <span>alomgir zadda</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, alias enim
+                            cumvoluptate adipisci repellat?</p>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="card p-4 text-center">
+                        <img src="image/testimonial/face4.jpg" class="img-fluid" alt="img">
+                        <span>alomgir zadda</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, alias enim
+                            cumvoluptate adipisci repellat?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- review end -->
+
+    <!-- contact start -->
+    <section id="contact-page">
+        <div class="overlay">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <form action="">
+                            <legend class="text-center">
+                                <h1 class="text-white mb-4">Contact</h1>
+                            </legend>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <input type="text" name="" id="" class="form-control bg-transparent p-4"
+                                            placeholder="Enter First Name">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <input type="text" name="" id="" class="form-control bg-transparent p-4"
+                                            placeholder="Enter Last Name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="" id="" class="form-control bg-transparent p-4"
+                                    placeholder="Enter Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" name="" id="" class="form-control bg-transparent p-4"
+                                    placeholder="Enter Password">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="" id="" cols="30" rows="10" class="form-control bg-transparent p-4"
+                                    placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input id="contact-btn" type="submit" class="btn btn-block" value="submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- contact end -->
+
+    <!-- footer start -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row justify-content-lg-between">
+                <div class="col-md-3">
+                    <h2 class="footer-brand">testy-treat</h2>
+                    <div class="quick-link">
+                        <ul class="list-group">
+                            <li><i class="fas fa-chevron-right"></i><a href="#">home</a></li>
+                            <li><i class="fas fa-chevron-right"></i><a href="#">popular meal</a></li>
+                            <li><i class="fas fa-chevron-right"></i><a href="#">about</a></li>
+                            <li><i class="fas fa-chevron-right"></i><a href="#">news</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="subscribe text-center">
+                        <h2 class="text-capitalize text-white">subscribe our newsletter</h2>
+                        <div class="form-group my-4">
+                            <input type="tel" name="" id="" class="form-control py-4 bg-transparent text-white"
+                                placeholder="Enter Email">
+                        </div>
+                        <button id="footer-btn" class="btn">subscribe</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="address">
+                        <h2 class="text-capitalize text-white">address</h2>
+                        <table class="table text-white table-borderless">
+                            <tbody>
+                                <tr>
+                                    <td class="px-0"><i class="fas fa-map-marker-alt px-0"></i></td>
+                                    <td class="text-capitalize">street:420, mountain view california, united state</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-0"><i class="fas fa-phone-alt"></i></td>
+                                    <td>+88 0123456789</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-0"><i class="far fa-envelope"></i></td>
+                                    <td>yourmail@gmail.com</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+
+    <!-- bootstrap js file -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- custom js -->
+    <script src="js/slickSlider.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

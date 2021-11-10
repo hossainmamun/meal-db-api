@@ -1,0 +1,66 @@
+@import "generalStyle.scss";
+@import "mainheader.scss";
+@import "popularMeal.scss";
+@import "searchMeal.scss";
+@import "singleMeal.scss";
+@import "review.scss";
+@import "booking.scss";
+
+// news & blog start
+#newsBlog {
+    margin: 100px 0 50px;
+    .btn-blog {
+        padding: 0;
+        text-transform: capitalize;
+    }
+}
+// news & blog end
+
+// contact start
+#contact-page {
+    background-image: url(../image/contact-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    .overlay {
+        padding: 50px 0;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    #contact-btn {
+        margin: 20px 0;
+    }
+}
+// contact end
+
+// footer section
+#footer {
+    background-color: #141b4d;
+    padding: 80px 0;
+
+    .footer-brand {
+        color: #e85d04;
+        text-transform: capitalize;
+        font-family: "Pacifico", cursive;
+    }
+    .list-group {
+        list-style: none;
+        display: block;
+    }
+    .quick-link a {
+        text-transform: capitalize;
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 0;
+        font-size: 1.2rem;
+        margin: 5px;
+        color: #fff;
+    }
+    .fa-chevron-right {
+        color: #fff;
+    }
+}
